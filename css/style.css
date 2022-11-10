@@ -1,0 +1,206 @@
+ /*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-link-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+ */
+
+
+ /* Здесь будут все стили для устройств с viewport больше 1400 пикселей. */
+@media (max-width: 1400px) {
+	  /* Стили для устройств, у которых ширина viewport меньше или равно 1400 пикселей, но больше 990 пикселей. Эти стили будут использованы для планшетов и ноутбуков с низким разрешением */
+	
+	
+	body {
+		background: var(--tg-theme-text-color);
+		color: var(--tg-theme-bg-color);
+
+	}
+	
+	p {
+		font-size: 1.6vw;
+		min-height: 15%;
+	}
+	
+	.conteiner {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		display: grid;
+		grid-column-gap: 5%;
+		grid-row-gap: 5%;
+		border: none;
+		border-radius: 6%;
+		margin: 5%;
+		position: fixed;
+	}
+	
+	
+	.item {
+
+		text-align: center;
+		font-style: bold;
+		color: white;
+		padding: 0.5%;
+		color: white;
+		margin: 5%;
+		border: 1px solid white; 
+		border-radius: 6%;
+	
+	}	
+	
+	
+	.item img {
+		width: 100%;
+	    height: auto;
+	}
+	
+	.item button {
+		white-space: nowrap;
+		/* word-wrap: break-word; */
+		width: 100%;
+		text-style: bold;
+		background: #FBB817;
+		border: none;
+		border-radius: 4%;
+		color: white;
+		font-size: 1.7vw;
+		padding: 10%;
+	}
+	
+	.item button:hover{
+		background: #FE9E16;
+	}
+	
+	.item button:active{
+		background: #FE9E16;
+	}
+	.item input {
+		white-space: nowrap;
+		/* word-wrap: break-word; */
+		width: 100%;
+		text-style: bold;
+		border: none;
+		color: white;
+		font-size: 1.7vw;
+		padding: 10%;
+
+		background: rgb(248, 168, 24);
+		border-radius: 10px;
+		font-weight: 700;
+	}
+	
+	.item input:hover{
+		background: #FE9E16;
+	}
+	
+	.item input:active{
+		background: #FE9E16;
+	}
+
+	#minus_1 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_1 {
+		width: 35%;
+		font-size: 1.7vw;
+
+	}
+
+	#minus_2 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_2 {
+		width: 35%;
+		font-size: 1.7vw;
+
+	}
+
+	#minus_3 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_3 {
+		width: 35%;
+		font-size: 1.7vw;
+	}
+
+	#minus_4 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_4 {
+		width: 35%;
+		font-size: 1.7vw;
+	
+	}
+
+	#minus_5 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_5 {
+		width: 35%;
+		font-size: 1.7vw;
+
+
+	}
+
+	#minus_6 {
+		width: 35%;
+		background: #FB5454;
+		font-size: 1.7vw;
+
+	}
+
+	#add_6 {
+		width: 35%;
+		font-size: 1.7vw;
+
+	}
+
+	
+}
+
+
+@media (max-width: 770px) {
+    
+    .conteiner {
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	grid-column-gap: 5%;
+	grid-row-gap: 5%;
+	border: none;
+	border-radius: 4%;
+
+	}
+
+	p {
+		text-style: bold;
+		font-size: 15px;
+	}
+
+
+	.item input {
+		font-size: 3vw;
+	}
+
+
+}
