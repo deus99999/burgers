@@ -44,7 +44,7 @@ var(--tg-theme-button-text-color)
 		padding: 0.5%;
 		color: white;
 		margin: 5%;
-		border: 1px solid white; 
+		border: none; 
 		border-radius: 6%;
 	
 	}	
